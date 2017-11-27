@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: 'Open Sans';
+	font-weight: bold;
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow-x: hidden;
+	font-family: Segoe, 'Segoe UI', 'DejaVu Sans', 'Trebuchet MS', Verdana, 'sans-serif';
+}
+nav.navbar-inverse.affix{
+	background-color: #000000 !important;
+	padding: 0.4% 0;
+	-webkit-transition: all .5s ease-in-out;
+}
+.container{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.navbar{
+	margin-bottom: 0;
+	border-radius: 0;
+	border: 0;
+	padding: 1% 0;
+}
+.navbar-inverse{
+	background-color: transparent !important;
+}
+.navbar-brand{
+	float: left;
+	min-height: 55px;
+	color: #8C1113 !important;
+}
+.navbar-inverse .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:focus,
+.navbar-inverse .navbar-nav li a:active{
+	border-bottom: 2px #8C1113 solid;
+	color: #8C1113 !important;
+}
+.navbar-inverse .navbar-nav li a{
+	color: #8C1113 !important;
+	padding-right: 0;
+	padding-left: 0;
+	margin-right: 20px;
+	background-color: transparent !important;
+}
+.carousel-inner .item img{
+	width: 100vw;
+	height: 100vh;
+}
+.carousel-caption{
+	top: 40vh;
+	
+}
+.carousel-caption p{
+	font-size: 8vmin;
+	
+}
+.carousel-caption .btnPort{
+	font-size: 3.2vmin;
+	border-radius: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 10px;
+}
+.carousel-caption .btnPort:hover,
+.carousel-caption .btnPort:focus{
+	background-color: #8C1113;
+	color: #fff;
+	transition: background-color 0.3s ease-in-out;
+	border: none;
+}
+.carousel-caption .btnCont{
+	font-size: 3.2vmin;
+	background-color: transparent !important;
+	color: #fff;
+	border-radius: 0;
+	border: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+}
+.carousel-caption .btnCont:hover,
+.carousel-caption .btnCont:focus{
+	color: #fff;
+	border: solid 2px #fff;
+}
+#myCarousel{
+	box-shadow: 0px 2.5px 6px rgba(0, 0, 0, 0.3);
+}
+.qmsomos{
+	margin-top: 14vh;
+	line-height: 9rem;
+	font-size: 3rem;
+}
+#about {
+	width: 100vw;
+	display: inline-block;
+	font-size: 1.8rem;
+	padding: 0vw 10vw;
+	padding-bottom: 10rem;
+	line-height: 3rem;
+	margin-right: 0 !important;
+	background-color: #fff;
+}
+#about hr{
+	border: 2px solid #8C1113;
+	width: 15vw;
+	height: 0;
+	margin-top: 50px;
+}
+.projetos{
+	background-color: #F1F1F1;
+	width: 100vw;
+	height: 100vh;
+	padding: 5vw;
+}
+.projetos p:nth-child(1){
+	font-size: 3.3vmin;
+}
+.projetos .col-sm-4 p > a:hover,
+.projetos .col-sm-4 p > a:focus{
+	color: rgba(95,95,95,1.00);
+}
+.projetos > p:nth-child(1){
+	margin-top: 2vh;
+	font-size: 3rem;
+	line-height: 5rem;
+}
+.projetos > p:nth-child(2){
+	font-size: 2rem;
+	line-height: 7rem;
+}
+.projetos .col-sm-4 a{
+	text-decoration: none !important;
+	color: rgba(70,70,70,1.00);
+}
+.projetos .col-sm-4 img{
+	box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+.projetos .col-sm-4 img:focus,
+.projetos .col-sm-4 img:hover{
+	background-color: rgba(255,255,255,1.00);
+	opacity: 0.5;
+	transform: rotateY(360deg);
+	transition: transform 0.5s ease-in;
+}
+[class*="projeto-"]{
+	margin-top: 1rem;
+}
+ul{
+	list-style-type: none;
+	display: block;
+	padding-right: 70px;
+}
+ul li{
+	display: inline;
+	color: #BFBFBF !important;
+}
+ul li a{
+	color: #BFBFBF !important;
+	padding-left: 20px;
+}
+ul li .disabled{
+	cursor: context-menu;
+}
+.projetos ul li a:hover:not(.disabled),
+.projetos ul li a:focus:not(.disabled){
+	color: #E80408 !important;
+}
+.contato{
+	width: 100vw;
+	height: 100vh;
+	background-color: #131313;
+	padding: 10vh;
+}
+.contato .tituloContato{
+	color: #fff;
+	font-size: 2.3rem;
+	line-height: 10rem;
+}
+.contato .form-control:not(#btn-submit){
+	width: 50vw;
+	border-radius: 0;
+	background: #E4E4E4;
+	border: 0;
+	padding: 4vh;
+	color: #FFFFFF !important;
+}
+.contato .form-control:focus:not(#btn-submit){
+	box-shadow: none !important;
+	background-color: #0D0D0D;
+}
+.contato #btn-submit{
+	background-color: #8C1113;
+	color: #fff;
+	width: 50vw;
+	padding: 2.5vh 2.5vh 7vh;
+	font-weight: bold;
+	border-radius: 0;
+	border: 0;
+	font-size: 2rem; 
+}
+.contato #btn-submit:focus,
+.contato #btn-submit:active{
+	background-color: #7B0305;
+	border-radius: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.contato h4{
+	font-family: 'Aller';
+	font-weight: bold;
+	color: #C7C7C7;	
+	line-height: 8vh;
+}
+.contato address p{
+	line-height: 0.2vh;
+	color: #fff;
+}
+.rede-sociais{
+	width: 100vw;
+	padding: 10vh;
+	background-color: #262626;
+}
+.rede-sociais a{
+	font-size: 5vmin;
+	color: #fff !important;
+	padding-right: 5vw;
+}
+.rede-sociais a:hover,
+.rede-sociais a:focus{
+	color: #8C1113 !important;
+}
+.autor{
+	width: 100vw;
+	height: 8vh;
+	background-color: rgba(47,47,47,1.00);
+}
+.autor p{
+	color: #A8A8A8;
+	font-family: 'Gadugi';
+	font-size: 2vmin;
+	font-weight: 100;
+	margin-top: 3vh;
+	
+}
+@media(max-width: 768px){
+	.navbar-inverse .navbar-nav{
+		margin-left: 20px;
+	}
+	.navbar-inverse .navbar-nav li a:hover,
+	.navbar-inverse .navbar-nav li a:focus{
+		border: 0 !important;
+	}
+	.navbar-inverse .navbar-collapse{
+		border-top: none;
+	}
+	.navbar-inverse .navbar-header:nth-child(5){
+		height: 3px;
+	}
+	.navbar-inverse .navbar-header .icon-bar{
+		height: 3px;
+	}
+	.navbar-inverse{
+		background-color:rgba(0,0,0,0.78) !important;
+	}
+	.navbar-toggle{
+		border: 0 !important;
+		border-radius: 0 !important;
+	}
+	.projetos{
+		width: 100vw;
+		background-color: #F1F1F1;
+		padding: 5vw;
+		height: inherit;
+	}.contato .form-control:not(#btn-submit){
+		width: 75vw;
+		border-radius: 0;
+		background: #ACACAC;
+		border: 0;
+		padding: 4vh;
+		color: #FFFFFF !important;
+	}
+	.contato{
+		width: 100vw;
+		height: inherit;
+	}
+}
